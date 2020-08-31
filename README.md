@@ -13,4 +13,4 @@
 	- *kubelet* The agent that runs on each node on the cluster. It responsible for the pods will run on the node as expected.
 
 # Mater vs Worker Nodes
-![alt text](attachments/master-vs-worker-nodes.jpg "Logo Title Text 1")
+![alt text](attachments/master-vs-worker-nodes.png "Logo Title Text 1")
