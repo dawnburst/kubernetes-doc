@@ -14,3 +14,8 @@
 
 # Mater vs Worker Nodes
 ![alt text](attachments/master-vs-worker-nodes.png "Logo Title Text 1")
+
+## Common comands
+- `kubectl get pod -o wide` get all pods with extract details
+- `kubectl run redis --image=redis123 --dry-run=client -o yaml > pod.yaml` create yaml file from run command (the dry-run parameter is for not executing the command on cluster)
+- `kubectl describe pod myapp-pod` get full description of the pod
